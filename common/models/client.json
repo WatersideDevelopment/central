@@ -1,0 +1,61 @@
+{
+  "name": "Client",
+  "plural": "Clients",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {
+    "client_number": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "string",
+      "required": true
+    },
+    "website": {
+      "type": "string"
+    },
+    "address_1": {
+      "type": "string"
+    },
+    "address_2": {
+      "type": "string"
+    },
+    "address_3": {
+      "type": "string"
+    },
+    "address_4": {
+      "type": "string"
+    },
+    "address_5": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "postcode": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "date",
+      "required": true
+    },
+    "edited_at": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
