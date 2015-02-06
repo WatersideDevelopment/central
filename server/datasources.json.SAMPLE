@@ -1,0 +1,11 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "central-dev": {
+    "host": "localhost",
+    "port": 27017,
+    "name": "central"
+  }
+}

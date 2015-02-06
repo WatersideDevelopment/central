@@ -2,6 +2,9 @@
 logs
 *.log
 
+# Personal Configuration Data
+server/datasources.json
+
 # Runtime data
 pids
 *.pid
